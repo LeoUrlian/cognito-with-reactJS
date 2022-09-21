@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Account } from './Account';
 import Login from './Login';
+import Settings from './Settings';
 import SignUp from './SignUp';
 import Status from './Status';
 
@@ -15,6 +16,8 @@ const App = () => {
       <SignUp />
       <br />
       <Login />
+      <br />
+      <Settings />
     </Account>
   )
 }
